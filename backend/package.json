@@ -1,7 +1,7 @@
 {
-  "name": "hello-node",
+  "name": "hello-node-backend",
   "version": "1.0.0",
-  "description": "Hello Node application",
+  "description": "Hello Node Backend Application",
   "main": "index.js",
   "dependencies": {
     "chalk": "2.1.0"
