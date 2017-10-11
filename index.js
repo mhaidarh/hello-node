@@ -1,1 +1,1 @@
-console.log("HELLO NODE")
+console.log("HELLO NODE");
