@@ -1,4 +1,8 @@
-const chalk = require('chalk');
-const log = console.log;
+var request = require("request")
 
-log(chalk.blue('HELLO') + 'BACKEND!' + chalk.red('!'));
+request("https://swapi.co/api/people/1", (error, response, body) => {
+  if (!error && response.statusCode == 200) {
+    var info = JSON.parse(body)
+  }
+  console.log(body)
+})
